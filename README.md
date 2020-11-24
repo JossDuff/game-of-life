@@ -1,3 +1,3 @@
 # game-of-life
 
-Creating Conway's game of life so I can practice some JS.
+Creating Conway's game of life using p5.js for some practice
