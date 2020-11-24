@@ -1,7 +1,11 @@
+//TODO: instead of making a new array each time just 0 out and use the old one
+//TODO: try using some cool array functions like map instead of iterating through the whole thing each time
+//TODO: make this in python for practice
+//TODO: do some fun stuff with the rules
 let grid;
 let cols;
 let rows;
-let resolution = 20;
+let resolution = 5;
 
 function make2DArray(cols, rows){
   let arr = new Array(cols);
@@ -18,7 +22,7 @@ function make2DArray(cols, rows){
 }
 
 function setup(){
-  createCanvas(600, 400);
+  createCanvas(1600, 800);
   cols = width/resolution;
   rows = height/resolution;
   grid = make2DArray(cols,rows);
